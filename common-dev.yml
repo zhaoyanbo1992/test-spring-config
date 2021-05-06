@@ -15,3 +15,7 @@ spring:
           starttls:
             enable: true
             required: true
+register:
+  config:
+    limited-time-millis: 600000
+    limit-number: 2
